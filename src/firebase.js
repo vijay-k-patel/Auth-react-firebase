@@ -12,14 +12,13 @@ import "firebase/auth";
 // });
 
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyBy3kpE-cis6x7siMgqlriaEc1oVf9ulCc",
-  authDomain: "react-auth-5ba14.firebaseapp.com",
-  databaseURL: "http://react-auth-5ba14.firebaseio.com",
-  projectId: "react-auth-5ba14",
-  storageBucket: "react-auth-5ba14.appspot.com",
-  messagingSenderId: "142394748794",
-  appId: "1:142394748794:web:2d8c7f3534aaa0ecb0b0c3",
-  measurementId: "G-GWB14N7D3Z",
+  apiKey: "AIzaSyCU53HkwO0L8Zn8bdPVVeCF5YGAqWGsu40",
+  authDomain: "react-auth-dacb6.firebaseapp.com",
+  databaseURL: "http://react-auth-dacb6.firebaseio.com",
+  projectId: "react-auth-dacb6",
+  storageBucket: "react-auth-dacb6.appspot.com",
+  messagingSenderId: "723591759075",
+  appId: "1:723591759075:web:cf9ce3e0d96adb5d01f1d6",
 });
 
 export const auth = app.auth();

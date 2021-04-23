@@ -1,13 +1,13 @@
 import React, { useRef, useState } from "react";
 import { Button, Card, Form, Alert } from "react-bootstrap";
 import { useAuth } from "../context/AuthContext";
-import { Link, Redirect, useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 function Login() {
   const emailRef = useRef();
   const passwordRef = useRef();
 
-  const { login, currentUser } = useAuth();
+  const { login } = useAuth();
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const history = useHistory();
